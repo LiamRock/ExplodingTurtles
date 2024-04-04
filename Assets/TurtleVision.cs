@@ -30,7 +30,6 @@ public class TurtleVision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Approaching " + other.gameObject.name);
         ai.SetFood(other.gameObject);
     }
 

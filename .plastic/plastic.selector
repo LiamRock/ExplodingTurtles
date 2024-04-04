@@ -1,4 +1,0 @@
-repository "Exploding Turtles@TheRealSquash@cloud"
-  path "/"
-    br "/main"
-    co "/main"
